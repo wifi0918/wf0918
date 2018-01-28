@@ -78,6 +78,7 @@ app.use(function(err, req, res, next) {
     res.status(500);
     res.render('500');
 })
+console.log('bug here');
 app.listen(app.get('port'), function() {
     console.log('express started in ' + app.get('env') + ' ' + app.get('port'));
 })
