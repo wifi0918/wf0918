@@ -34,5 +34,5 @@ router.post('/login', Admin.doPostLogin);
 //     res.render('register');
 // })
 console.log('learning git info');
-
+console.log('confilct in feature');
 module.exports = router;
