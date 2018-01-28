@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.29.2",
+    "config-lite": "^2.1.0",
+    "connect-mongo": "^2.0.1",
+    "connect-redis": "^3.3.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express3-handlebars": "^0.5.2",
+    "formidable": "^1.1.1",
+    "jquery": "^3.2.1",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.0",
+    "uid-safe": "^2.1.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "wf",
+  "version": "1.0.0",
+  "description": "to learn how to use express",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "express"
+  ],
+  "author": "wf",
+  "license": "ISC"
+}

@@ -1,0 +1,197 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div,
+dl,
+dt,
+dd,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+}
+
+img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 清除浮动 */
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 首页
+ */
+
+.container {
+    width: 1100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container h1 {
+    display: inline-block;
+}
+
+a.fr {
+    float: right;
+    margin-right: 20px;
+    padding: 0 5px;
+    background-color: #ededed;
+    color: #333;
+}
+
+
+/* register 
+ */
+
+.register_container {
+    width: 1100px;
+    margin: 100px auto;
+}
+
+.main-nav-c img {
+    float: left;
+}
+
+.main-nav-c a {
+    float: left;
+    margin-top: 10px;
+    display: inline-block;
+    color: rgba(34, 123, 207, 1);
+    ;
+}
+
+.main-nav-c a:last-child {
+    olor: #666;
+}
+
+.main-nav-c span {
+    float: left;
+    display: inline-block;
+    color: #666;
+    margin: 10px 5px;
+}
+
+.register-form-c {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #eaeaea;
+}
+
+.register-form {
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 180px;
+}
+
+.register-form .k-item {
+    display: block;
+    margin-top: 20px;
+    height: 44px;
+}
+
+.register-form .lbl-prop {
+    float: left;
+    width: 130px;
+    display: inline-block;
+    margin: 13px 15px 0 0;
+    color: #666;
+    text-align: right;
+    font-size: 16px;
+}
+
+.register-form .k-input {
+    float: left;
+    height: 32px;
+    padding: 5px;
+    border: 1px solid #eaeaea;
+}
+
+.register-form .txt-re-phone,
+.register-form .txt-re-password,
+.register-form .txt-re-password2 {
+    width: 395px;
+}
+
+.register-form .form-error {
+    float: left;
+    margin: 10px;
+    display: none;
+}
+
+.register-form .form-error .error-text {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    color: red;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.k-button {
+    display: inline-block;
+    width: 100px;
+    margin-left: 145px;
+    padding: 0px 14px;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #aaaaaa;
+    float: left;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+}
+
+.k-button.active {
+    background-color: #ff9c00;
+}
