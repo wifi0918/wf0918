@@ -33,5 +33,6 @@ router.post('/login', Admin.doPostLogin);
 // app.get('/register', function(req, res) {
 //     res.render('register');
 // })
+console.log('learning git info');
 
 module.exports = router;
