@@ -195,3 +195,7 @@ a.fr {
 .k-button.active {
     background-color: #ff9c00;
 }
+
+.red {
+    color: red;
+}
