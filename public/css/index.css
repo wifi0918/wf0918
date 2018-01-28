@@ -207,3 +207,7 @@ a.fr {
 .fr {
     float: right;
 }
+
+.margin_10 {
+    margin: 10px;
+}
