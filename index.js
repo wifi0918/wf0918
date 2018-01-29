@@ -1,5 +1,6 @@
 // import express from 'express';
 var express = require('express');
+
 // var config = require('config-lite');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
@@ -15,6 +16,9 @@ var http = require('http');
 var fs = require('fs');
 var User = require("./model/user.js");
 var app = express();
+console.log('wf1111');
+console.log('wf222');
+console.log('wf333');
 app.allow_url = {
     domainName: 'localhost',
     port: 3000
