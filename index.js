@@ -1,5 +1,6 @@
 // import express from 'express';
 var express = require('express');
+console.log('test branch dev');
 // var config = require('config-lite');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
