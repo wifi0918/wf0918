@@ -1,5 +1,6 @@
 $(function() {
     console.log('hahahhaha');
+    console.log('wf_5');
     var phonePattern = /^1[0-9]{10}$/;
 
     var $phoneNumber = $('.txt-re-phone');
