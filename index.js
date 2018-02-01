@@ -1,6 +1,7 @@
 var express = require('express');
 console.log('reset hard');
 console.log('hahhaha');
+console.log("index js hhaha");
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var connectMongo = require('connect-mongo');
